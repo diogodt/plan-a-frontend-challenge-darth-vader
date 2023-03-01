@@ -1,6 +1,6 @@
 Plan a Frontend Challenge Darth Vader!
 
-This is a movie app that connects to the TheMovieDB API to fetch movie data. Users can login and browse movies, see movie details, and add movies to their watchlist.
+This is an app that connects to the TheMovieDB API to fetch movie data. Users can login and browse movies, see movie details, and add movies to their watchlist.
 
 API Key
 The provided API Key isn't giving access to the themoviedb database due to an network error (503). I have tried it from their platform, in the 'Try it out' tab and adding the API Key, and it doesn't work. That's why I decided to build the application with the Guest ID.
