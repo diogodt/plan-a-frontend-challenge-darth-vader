@@ -1,4 +1,5 @@
-Movie App
+Plan a Frontend Challenge Darth Vader!
+
 This is a movie app that connects to the TheMovieDB API to fetch movie data. Users can login and browse movies, see movie details, and add movies to their watchlist.
 
 API Key
