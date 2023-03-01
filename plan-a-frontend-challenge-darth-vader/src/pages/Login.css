@@ -1,0 +1,103 @@
+.login-form {
+  position: absolute;
+  max-width: 400px;
+  right: 10%;
+  top: 20%;
+  height: 50%;
+  padding: 2rem;
+  border: 1px solid black;
+  color: #fff;
+  background-color: rgb(19 37 59 / 90%);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  font-size: 1.1rem;
+}
+
+.form-input.error {
+  border: 1px solid red;
+}
+
+.form-error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.btn-primary {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #1c76d6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.btn-primary:hover {
+  background-color: #1454a4;
+}
+
+.container {
+  height: calc(100vh - 32px);
+}
+
+/* Login page background */
+.container {
+  background-image: url("../assets/images/login-background.jpg");
+  background-size: cover;
+  background-position: center;
+  max-height: 100vh;
+  height: 100vh;
+  margin-top: 0px;
+}
+
+.vader-quote {
+  margin-top: 40px;
+  padding-top: 35px;
+  border-top: 1px solid white;
+  line-height: 1.7;
+  width: 300px;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  /* Adjust navbar height for smaller screens */
+  .navbar {
+    height: 60px;
+  }
+
+  /* Adjust container height for smaller screens */
+  .container {
+    height: calc(100vh - 60px);
+  }
+  table td {
+    width: 100%;
+    display: block;
+  }
+}

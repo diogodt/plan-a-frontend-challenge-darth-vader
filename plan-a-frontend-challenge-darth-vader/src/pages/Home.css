@@ -1,0 +1,60 @@
+.container.home {
+  background-image: unset!important;
+  background-color: rgb(52 52 52);
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+.movie-container {
+  padding: 120px 40px;
+}
+
+td.movie-poster {
+  width: 30%;
+}
+
+.movie-table {
+  max-width: 100%;
+  width: 900px;
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+table tr td:first-child img {
+  width: 300px;
+  border: 3px solid white;
+}
+
+.movie-details {
+  vertical-align: top;
+  padding-left: 30px;
+  margin-top: -20px;
+  display: block;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+  .movie-table {
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  table tr td:first-child img {
+    width: 100%;
+  }
+  
+  .movie-details {
+    padding: 20px;
+    margin-top: 20px;
+    display: block;
+    left: 40px;
+    top: 550px;
+    width: 100%;
+  }
+}

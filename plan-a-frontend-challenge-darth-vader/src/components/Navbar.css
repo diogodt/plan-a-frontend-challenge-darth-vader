@@ -1,0 +1,12 @@
+.navbar-logo {
+    font-family: 'Quicksand', sans-serif;
+    padding: 40px;
+    display: block;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .navbar-logo {
+        font-size: 26px;
+    }
+}
